@@ -13,7 +13,10 @@
             >
           </div>
           <div class="edrea_tm_button transition_link">
-            <a href="#contact" @click="downloadCurriculum">Baixar Currículo</a>
+            <a
+              href="https://drive.google.com/uc?export=download&id=1a8Bkyo2FlIpLJ9gj5OneIyoZKPnDgP9n"
+              >Baixar Currículo</a
+            >
           </div>
         </div>
       </div>
@@ -33,15 +36,6 @@ export default {
     };
   },
   components: { AnimationText },
-  methods: {
-    downloadCurriculum() {
-      const url = "public";
-      const link = document.createElement("a");
-      link.href = url;
-      link.download = "[ARTHUR]CV - Resumo PT-BR.pdf";
-      link.click();
-    },
-  },
 };
 </script>
 
