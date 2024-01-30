@@ -101,14 +101,16 @@
                       </ul>
                     </div>
                     <div class="details">
-                      <h3>É possível consultar os gastos</h3>
+                      <h3>
+                        É possível consultar a movimentação do seu dinheiro.
+                      </h3>
                       <span>Detalhes</span>
                     </div>
                     <div class="text">
                       <p>
                         Todos os dados armazenados no banco de dados são
-                        expostos em uma tabela da sua conta, lembrando que todos
-                        os dados são protegidos através de um user_id.
+                        expostos em uma tabela da sua conta, lembrando que são
+                        protegidos através de um user_id.
                       </p>
                     </div>
                     <div class="additional_images">
@@ -136,34 +138,105 @@
               <div class="list_inner">
                 <div class="image">
                   <img src="img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="img/portfolio/5.jpg"></div>
+                  <div
+                    class="main"
+                    data-img-url="img/portfolio/backpacks-1.png"
+                  ></div>
                 </div>
                 <div class="details">
-                  <h3>Blue Lemon</h3>
-                  <span>Image</span>
+                  <h3>Voyager Backpacks</h3>
+                  <span>Detalhes</span>
                 </div>
-                <a
-                  class="edrea_tm_full_link zoom"
-                  href="img/portfolio/5.jpg"
-                ></a>
+                <a class="edrea_tm_full_link portfolio_popup" href="#"></a>
+
+                <!-- Portfolio Popup Informations -->
+                <div class="edrea_tm_hidden_content">
+                  <div class="portfolio_popup_details">
+                    <div class="top_image">
+                      <img src="img/thumbs/4-3.jpg" alt="" />
+                      <div
+                        class="main"
+                        data-img-url="img/portfolio/backpacks-1.png"
+                        style="background-image: url('img/portfolio/4.jpg')"
+                      ></div>
+                    </div>
+                    <div class="details">
+                      <h3>Voyager Leather Goods co.</h3>
+                      <span>Detalhes</span>
+                    </div>
+                    <div class="text">
+                      <p>
+                        A loja virtual Voyager Leather Goods co. conta com um um
+                        design responsivo e moderno, além de um sistema de
+                        autenticação e carrinho de compras, utilizando uma
+                        biblioteca de componente chamada Shadcn, Vue.js e
+                        Tailwind. Também utilizei conceitos de arquitetura
+                        hexagonal para o projeto.
+                      </p>
+                      <div class="flex-link link-color">
+                        <a
+                          target="_blank"
+                          href="https://github.com/arthurhzk/voyager-backpacks-eccommerce"
+                          >Source Code</a
+                        >
+                        <a
+                          target="_blank"
+                          href="https://voyager-backpacks.vercel.app/#/"
+                          >Deploy</a
+                        >
+                      </div>
+                    </div>
+                    <div class="additional_images">
+                      <ul class="gallery_zoom">
+                        <li>
+                          <div class="list_inner">
+                            <div class="image">
+                              <img src="img/thumbs/4-3.jpg" alt="" />
+                              <div
+                                class="main"
+                                data-img-url="img/portfolio/backpacks-2.png"
+                              ></div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="details">
+                      <h3>
+                        É possível consultar a movimentação do seu dinheiro.
+                      </h3>
+                      <span>Detalhes</span>
+                    </div>
+                    <div class="text">
+                      <p>
+                        O design está totalmente responsivo e foi criado através
+                        do Figma, utilizando técnica de mobile first, após
+                        finalizar a compra o usuário é redirecionado a uma
+                        página real de pagamento através da API do stripe.
+                      </p>
+                    </div>
+                    <div class="additional_images">
+                      <ul class="gallery_zoom">
+                        <li>
+                          <div class="list_inner">
+                            <div class="image">
+                              <img src="img/thumbs/4-3.jpg" alt="" />
+                              <div
+                                class="main"
+                                data-img-url="img/portfolio/backpacks-3.png"
+                              ></div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- /Portfolio Popup Informations -->
               </div>
             </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="list_inner">
-                <div class="image">
-                  <img src="img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="img/portfolio/6.jpg"></div>
-                </div>
-                <div class="details">
-                  <h3>Sweet Cheery</h3>
-                  <span>Image</span>
-                </div>
-                <a
-                  class="edrea_tm_full_link zoom"
-                  href="img/portfolio/6.jpg"
-                ></a>
-              </div>
-            </swiper-slide>
+
             <div class="edrea_tm_swiper_progress fill">
               <div class="my_pagination_in">
                 <span class="current">0</span>
