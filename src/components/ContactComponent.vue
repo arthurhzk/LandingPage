@@ -12,7 +12,13 @@
               <li>
                 <div class="list_inner">
                   <i class="icon-phone"></i>
-                  <span><a href="#">+55 51 99685-9588</a></span>
+                  <span
+                    ><a
+                      href="https://api.whatsapp.com/send?phone=5551996859588"
+                      target="_blank"
+                      >+55 51 99685-9588</a
+                    >
+                  </span>
                 </div>
               </li>
               <li>

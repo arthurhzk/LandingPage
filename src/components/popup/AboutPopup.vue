@@ -71,7 +71,12 @@
                 </ul>
               </div>
               <div class="edrea_tm_button full">
-                <a href="img/about/1.jpg" download>Download CV</a>
+                <a
+                  B
+                  href="https://drive.google.com/uc?export=download&id=1a8Bkyo2FlIpLJ9gj5OneIyoZKPnDgP9n"
+                  download
+                  >Baixar CV</a
+                >
               </div>
             </div>
           </div>
@@ -80,23 +85,26 @@
               <div class="biography">
                 <div class="about_title">
                   <h3>
-                    <span>About <span class="coloring">Me</span></span>
+                    <span>Sobre <span class="coloring">Mim</span></span>
                   </h3>
                 </div>
                 <div class="text">
                   <p>
-                    Hello everybody! My name is
-                    <span>Arthur Kunz.</span> I am a graphic designer, and I'm
-                    very passionate and dedicated to my work. With 20 years
-                    experience as a professional a graphic designer, I have
-                    acquired the skills and knowledge.
+                    Olá a todos! Meu nome é
+                    <span>Arthur Kunz.</span> Sou um desenvolvedor Frontend e
+                    sou muito apaixonado e dedicado ao meu trabalho. Venho
+                    dedicando minhas habilidades em desenvolver interfaces
+                    incríveis e responsivas, estou disposto tanto para trabalhar
+                    presencialmente como remotamente.
                   </p>
                 </div>
               </div>
               <div class="service">
                 <div class="about_title">
                   <h3>
-                    <span>Quality <span class="coloring">Services</span></span>
+                    <span
+                      >Minhas <span class="coloring">Habilidades</span></span
+                    >
                   </h3>
                 </div>
                 <div class="list">
@@ -110,9 +118,7 @@
               <div class="prog_skill">
                 <div class="about_title">
                   <h3>
-                    <span
-                      >Programming <span class="coloring">Skills</span></span
-                    >
+                    <span>Hard <span class="coloring">Skills</span></span>
                   </h3>
                 </div>
                 <div class="oki_progress">
@@ -146,23 +152,23 @@
                   <ul>
                     <li>
                       <div class="list_inner">
-                        <div class="myCircle" data-value=".95"></div>
+                        <div class="myCircle" data-value="1.0"></div>
 
-                        <div class="title"><span>English</span></div>
+                        <div class="title"><span>Português</span></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="list_inner">
+                        <div class="myCircle" data-value="0.95"></div>
+
+                        <div class="title"><span>Inglês</span></div>
                       </div>
                     </li>
                     <li>
                       <div class="list_inner">
                         <div class="myCircle" data-value="0.8"></div>
 
-                        <div class="title"><span>Russian</span></div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="list_inner">
-                        <div class="myCircle" data-value="0.9"></div>
-
-                        <div class="title"><span>Arabic</span></div>
+                        <div class="title"><span>Espanhol</span></div>
                       </div>
                     </li>
                   </ul>
@@ -171,9 +177,7 @@
               <div class="timeline">
                 <div class="about_title">
                   <h3>
-                    <span
-                      >Education <span class="coloring">Timeline</span></span
-                    >
+                    <span>Educação </span>
                   </h3>
                 </div>
                 <div class="list">
@@ -195,7 +199,7 @@
               <div class="timeline">
                 <div class="about_title">
                   <h3>
-                    <span>Working <span class="coloring">Timeline</span></span>
+                    <span>Linha do Tempo </span>
                   </h3>
                 </div>
                 <div class="list">
@@ -212,114 +216,6 @@
                       </div>
                     </li>
                   </ul>
-                </div>
-              </div>
-              <div class="partners">
-                <div class="about_title">
-                  <h3>
-                    <span>My <span class="coloring">Partners</span></span>
-                  </h3>
-                </div>
-                <div class="list">
-                  <ul>
-                    <li v-for="(partner, i) in aboutData.partnersLogos">
-                      <div class="list_inner">
-                        <img :src="partner" alt="" />
-                        <a class="cavani_tm_full_link" href="#"></a>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="testimonial">
-                <div class="about_title">
-                  <h3>
-                    <span>Clients <span class="coloring">Feedback</span></span>
-                  </h3>
-                </div>
-                <div class="list">
-                  <swiper
-                    :loop="true"
-                    :slidesPerView="1"
-                    :spaceBetween="10"
-                    :loopAdditionalSlides="1"
-                    :autoplay="{
-                      delay: 6000,
-                    }"
-                    :modules="modules"
-                    class="owl-carousel"
-                  >
-                    <swiper-slide>
-                      <div class="list_inner">
-                        <div class="text">
-                          <i class="icon-quote-left"></i>
-                          <p>
-                            Beautiful minimalist design and great, fast response
-                            with support. Highly recommend. Thanks Marketify!
-                          </p>
-                        </div>
-                        <div class="details">
-                          <div class="image">
-                            <div
-                              class="main"
-                              data-img-url="img/testimonials/1.jpg"
-                            ></div>
-                          </div>
-                          <div class="info">
-                            <h3>Alexander Walker</h3>
-                            <span>Graphic Designer</span>
-                          </div>
-                        </div>
-                      </div>
-                    </swiper-slide>
-                    <swiper-slide>
-                      <div class="list_inner">
-                        <div class="text">
-                          <i class="icon-quote-left"></i>
-                          <p>
-                            These people really know what they are doing! Great
-                            customer support availability and supperb kindness.
-                          </p>
-                        </div>
-                        <div class="details">
-                          <div class="image">
-                            <div
-                              class="main"
-                              data-img-url="img/testimonials/2.jpg"
-                            ></div>
-                          </div>
-                          <div class="info">
-                            <h3>Armin Van Buuren</h3>
-                            <span>Content Manager</span>
-                          </div>
-                        </div>
-                      </div>
-                    </swiper-slide>
-                    <swiper-slide>
-                      <div class="list_inner">
-                        <div class="text">
-                          <i class="icon-quote-left"></i>
-                          <p>
-                            I had a little problem and the support was just
-                            awesome to quickly solve the situation. And keep
-                            going on.
-                          </p>
-                        </div>
-                        <div class="details">
-                          <div class="image">
-                            <div
-                              class="main"
-                              data-img-url="img/testimonials/3.jpg"
-                            ></div>
-                          </div>
-                          <div class="info">
-                            <h3>Baraka Clinton</h3>
-                            <span>English Teacher</span>
-                          </div>
-                        </div>
-                      </div>
-                    </swiper-slide>
-                  </swiper>
                 </div>
               </div>
             </div>
@@ -344,65 +240,66 @@ export default {
   data() {
     return {
       open: false,
-      // data
+
       aboutData: {
-        firstName: "David",
-        lastName: "Parker",
-        bithday: "01.07.1990",
-        address: "Avon str. 22, NYC, USA",
-        phn: "+77 022 155 02 02",
-        email: "example@gmail.com",
+        firstName: "Arthur ",
+        lastName: "Kunz",
+        bithday: "18.09.1996",
+        address: "Brasil",
+        phn: "+55 51 99685-9588",
+        email: "arthurhkunz@gmail.com",
         serviceLists: [
-          "Website Development",
-          "Digital Experience",
-          "Content Marketing",
-          "Social Media Design",
-          "Shared Web Hosting",
+          "Desenvolvinmento Web",
+          "HTML/CSS",
+          "Javascript",
+          "Design Responsivo",
+          "Comunicação e Colaboração",
+          "Ótima comunicação em Inglês",
         ],
         skills: {
           programming: [
-            { name: "WordPress", value: "95" },
-            { name: "JavaScript", value: "80" },
-            { name: "Angular", value: "90" },
+            { name: "Vue.js", value: "100" },
+            { name: "React", value: "90" },
+            { name: "Javascript", value: "95" },
+            { name: "HTML/CSS", value: "100" },
+            { name: "Typescript", value: "90" },
+            { name: "Tailwind", value: "100" },
+            { name: "Git", value: "90" },
           ],
           language: [
-            { name: "English", value: "95" },
-            { name: "Russian", value: "80" },
-            { name: "Arabic", value: "90" },
+            { name: "Português", value: "100" },
+            { name: "Inglês", value: "95" },
+            { name: "Espanhol", value: "80" },
           ],
         },
         education: [
           {
-            year: "2014 - 2016",
-            unv: "Oxford Univercity",
-            degree: "Master Degree",
+            year: "2014 - 2022",
+            unv: "Universidade do Vale do Taquari",
+            degree: "Bacharelado em Farmácia",
           },
           {
-            year: "2010 - 2014",
-            unv: "Texas Univercity",
-            degree: "Bachelor Degree",
+            year: "2019 - 2020",
+            unv: "Imagine Education Australia",
+            degree:
+              "Certificado de Graduação em Inglês nível Intermediário Superior",
           },
           {
-            year: "2008 - 2010",
-            unv: "Simone College",
-            degree: "Associate Degree",
+            year: "2023 - atual",
+            unv: "Universidado do Vale do Taquari",
+            degree: "Análise e Desenvolvimento de Sistemas",
           },
         ],
         working: [
           {
-            year: "2018 - running",
-            company: "Envato Elements",
-            deg: "Exclusive Author",
+            year: "2014 - 2022",
+            company: "Rocalab - Laboratório de Análises Clínicas",
+            deg: "Auxiliar de Laboratório Farmacêutico Responsável Técnico",
           },
           {
-            year: "2015 - 2018",
-            company: "Avo Corporation",
-            deg: "Content Manager",
-          },
-          {
-            year: "2012 - 2015",
-            company: "FC Barcelona",
-            deg: "Football Player",
+            year: "2023 - atual",
+            company: "Desenvolvedor Freelancer",
+            deg: "Desenvolvimento de Websites e Aplicações Web",
           },
         ],
         partnersLogos: [

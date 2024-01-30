@@ -12,12 +12,6 @@
               >Entre em contato</a
             >
           </div>
-          <div class="edrea_tm_button transition_link">
-            <a
-              href="https://drive.google.com/uc?export=download&id=1a8Bkyo2FlIpLJ9gj5OneIyoZKPnDgP9n"
-              >Baixar Currículo</a
-            >
-          </div>
         </div>
       </div>
     </div>
