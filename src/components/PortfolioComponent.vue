@@ -37,59 +37,14 @@
               <div class="list_inner">
                 <div class="image">
                   <img src="img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+                  <div
+                    class="main"
+                    data-img-url="img/portfolio/finances-1.png"
+                  ></div>
                 </div>
                 <div class="details">
-                  <h3>Sweet Fruit</h3>
-                  <span>Vimeo</span>
-                </div>
-                <a
-                  class="edrea_tm_full_link popup-vimeo"
-                  href="//player.vimeo.com/video/321091335?autoplay=1"
-                ></a>
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="list_inner">
-                <div class="image">
-                  <img src="img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="img/portfolio/2.jpg"></div>
-                </div>
-                <div class="details">
-                  <h3>Good Present</h3>
-                  <span>Youtube</span>
-                </div>
-                <a
-                  class="edrea_tm_full_link popup-youtube"
-                  href="//www.youtube.com/embed/toClS5fCudA?autoplay=1"
-                ></a>
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="list_inner">
-                <div class="image">
-                  <img src="img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="img/portfolio/3.jpg"></div>
-                </div>
-                <div class="details">
-                  <h3>Mockup Cream</h3>
-                  <span>Soundcloud</span>
-                </div>
-                <a
-                  class="edrea_tm_full_link soundcloude_link mfp-iframe audio"
-                  href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                ></a>
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="list_inner">
-                <div class="image">
-                  <img src="img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="img/portfolio/4.jpg"></div>
-                </div>
-                <div class="details">
-                  <h3>Delicious Apple</h3>
-                  <span>Detail</span>
+                  <h3>WiseHub</h3>
+                  <span>Detalhes</span>
                 </div>
                 <a class="edrea_tm_full_link portfolio_popup" href="#"></a>
 
@@ -97,32 +52,63 @@
                 <div class="edrea_tm_hidden_content">
                   <div class="portfolio_popup_details">
                     <div class="top_image">
-                      <img src="img/thumbs/4-2.jpg" alt="" />
+                      <img src="img/thumbs/4-3.jpg" alt="" />
                       <div
                         class="main"
-                        data-img-url="img/portfolio/4.jpg"
+                        data-img-url="img/portfolio/finances-2.png"
                         style="background-image: url('img/portfolio/4.jpg')"
                       ></div>
                     </div>
                     <div class="details">
-                      <h3>Delicious Apple</h3>
-                      <span>Detail</span>
+                      <h3>WiseHub - Soluções em Finanças</h3>
+                      <span>Detalhes</span>
                     </div>
                     <div class="text">
                       <p>
-                        An apple is an edible fruit produced by an apple tree.
-                        Apple trees are cultivated worldwide and are the most
-                        widely grown species in the genus Malus. The tree
-                        originated in Central Asia, where its wild ancestor,
-                        Malus sieversii, is still found today.
+                        O WiseHub conta com sistema de autenticação, criação de
+                        contas e todos os dados são armazenados no banco de
+                        dados do Supabase. O sistema também conta com um sistema
+                        de assinaturas, onde o usuário pode escolher entre 3
+                        planos diferentes e realizar o pagamento utilizando o
+                        Stripe.
                       </p>
+                      <div class="flex-link link-color">
+                        <a
+                          target="_blank"
+                          href="https://github.com/arthurhzk/finances-project"
+                          >Source Code</a
+                        >
+                        <a
+                          target="_blank"
+                          href="https://finances-project-gbmo.vercel.app/"
+                          >Deploy</a
+                        >
+                      </div>
+                    </div>
+                    <div class="additional_images">
+                      <ul class="gallery_zoom">
+                        <li>
+                          <div class="list_inner">
+                            <div class="image">
+                              <img src="img/thumbs/4-3.jpg" alt="" />
+                              <div
+                                class="main"
+                                data-img-url="img/portfolio/finances-3.png"
+                              ></div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="details">
+                      <h3>É possível consultar os gastos</h3>
+                      <span>Detalhes</span>
+                    </div>
+                    <div class="text">
                       <p>
-                        Apples grown from seed tend to be very different from
-                        those of the parents, and the resultant fruit frequently
-                        lack desired characteristics. Generally then, apple
-                        cultivars are propagated by clonal grafting onto
-                        rootstocks. Apple trees grown without rootstocks tend to
-                        be larger and much slower to fruit after planting.
+                        Todos os dados armazenados no banco de dados são
+                        expostos em uma tabela da sua conta, lembrando que todos
+                        os dados são protegidos através de um user_id.
                       </p>
                     </div>
                     <div class="additional_images">
@@ -130,45 +116,11 @@
                         <li>
                           <div class="list_inner">
                             <div class="image">
-                              <img src="img/thumbs/4-2.jpg" alt="" />
+                              <img src="img/thumbs/4-3.jpg" alt="" />
                               <div
                                 class="main"
-                                data-img-url="img/portfolio/7.jpg"
+                                data-img-url="img/portfolio/finances-4.png"
                               ></div>
-                              <a
-                                class="edrea_tm_full_link zoom"
-                                href="img/portfolio/7.jpg"
-                              ></a>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="list_inner">
-                            <div class="image">
-                              <img src="img/thumbs/4-2.jpg" alt="" />
-                              <div
-                                class="main"
-                                data-img-url="img/portfolio/8.jpg"
-                              ></div>
-                              <a
-                                class="edrea_tm_full_link zoom"
-                                href="img/portfolio/8.jpg"
-                              ></a>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="list_inner">
-                            <div class="image">
-                              <img src="img/thumbs/4-2.jpg" alt="" />
-                              <div
-                                class="main"
-                                data-img-url="img/portfolio/9.jpg"
-                              ></div>
-                              <a
-                                class="edrea_tm_full_link zoom"
-                                href="img/portfolio/9.jpg"
-                              ></a>
                             </div>
                           </div>
                         </li>
@@ -176,6 +128,7 @@
                     </div>
                   </div>
                 </div>
+
                 <!-- /Portfolio Popup Informations -->
               </div>
             </swiper-slide>
@@ -280,3 +233,15 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.link-color {
+  border: none !important;
+  outline: none !important;
+}
+
+.flex-link {
+  display: flex;
+  flex-direction: column;
+}
+</style>

@@ -11,7 +11,10 @@
               <div class="author">
                 <div class="avatar_image">
                   <img src="img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="img/about/1.jpg"></div>
+                  <div
+                    class="main"
+                    data-img-url="img/about/main-photo.jpg"
+                  ></div>
                 </div>
                 <div class="short">
                   <h3 class="name">
